@@ -78,20 +78,22 @@ p {
 }
 
 .leftimage {
+   position: relative;
 	margin-left: 40px;
 	margin-top: 40px;
 }
 
 .rightimage {
+   position: relative;
 	margin-right: 40px;
 	margin-top: 40px;
 }
 
 #hangman { 
    position: absolute; 
-   top: 265px;
-   left: 85px; 
-   width: 210px;
+   top: 120px;
+   left: 0px; 
+   width: 250px;
    color: #ffffff;
    background: #4aaaa5;
    padding: 20px;
@@ -102,9 +104,9 @@ p {
 
 #rpgGame { 
    position: absolute; 
-   top: 265px;
-   left: 485px; 
-   width: 210px;
+   top: 120px;
+   left: 0px; 
+   width: 250px;
    color: #ffffff;
    background: #4aaaa5;
    padding: 20px;
@@ -115,9 +117,9 @@ p {
 
 #triviaGame { 
    position: absolute; 
-   top: 505px;
-   left: 85px; 
-   width: 210px;
+   top: 120px;
+   left: 0px; 
+   width: 250px;
    color: #ffffff;
    background: #4aaaa5;
    padding: 20px;
@@ -128,9 +130,9 @@ p {
 
 #rutgersInfoWidget { 
    position: absolute; 
-   top: 505px;
-   left: 485px; 
-   width: 210px;
+   top: 120px;
+   left: 0px; 
+   width: 250px;
    color: #ffffff;
    background: #4aaaa5;
    padding: 20px;
@@ -141,9 +143,9 @@ p {
 
 #RockPaperScissors { 
    position: absolute; 
-   top: 720px;
-   left: 85px; 
-   width: 210px;
+   top: 120px;
+   left: 0px; 
+   width: 250px;
    color: #ffffff;
    background: #4aaaa5;
    padding: 20px;
@@ -151,3 +153,15 @@ p {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    font-weight: bold;
 }
+
+@media screen and (max-width: 980px) {
+
+   }
+
+@media screen and (max-width: 768px) {
+   
+   }
+
+@media screen and (max-width: 640px) {
+   
+   }

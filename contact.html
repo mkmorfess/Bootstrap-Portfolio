@@ -27,28 +27,35 @@
 
   </section>
 
-		
-			 <div class="container">
+
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <div class="backgroundContent">
           <h2 class="mainContentBorder borderMargin tealHeadings">Contact</h2>
-          	<br>
+          <br>
 
-				<form action="/action_page.php">
-					<div class="contactFont">Name</div> <input type="text" name="fullname" size="68" maxlength="100" placeholder="John Smith"><br>
-					<br>
-					<div class="contactFont">Email</div> <input type="text" name="email" size="68" maxlength="80" placeholder="example@gmail.com"><br>
-					<br>
-					<div class="contactFont">Message</div> <textarea rows="20" cols="69" name="message" size="68" maxlength="5000"></textarea><br>
-					<br><input type="submit" value="Submit" id="submitButton">
-				</form>
+          <form action="/action_page.php">
+           <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="usr" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Email:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="example@gmail.com"></div>
 
-				<br>
-			</div>
-			</div>
+            <div class="form-group">
+              <label for="comment">Message:</label>
+              <textarea class="form-control" rows="14" id="comment"></textarea>
+            </div>
+            <br><input type="submit" value="Submit" class="btn btn-primary">
+          </form>
 
-			 <div class="container">
+          <br>
+        </div>
+      </div>
+
+      <div class="container">
         <div class="col-md-3">
          <section class="text-center backgroundContent">
 
@@ -66,17 +73,17 @@
 
        </div>
      </div>
-     </div>
-     </div>
-     </div>
-
-     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 text-center marginFooter">
-         <footer>© Copyright 2017 Michael K. Morfessis</footer>
-       </div>
-       </div>
-     </div>
+   </div>
  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 text-center marginFooter">
+     <footer>© Copyright 2017 Michael K. Morfessis</footer>
+   </div>
+ </div>
+</div>
+</div>
 </body>
 </html>
